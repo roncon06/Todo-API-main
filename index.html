@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>TODO List</h1>
+        </header>
+        <div class="todo-form">
+            <input type="text" id="todo-input-title" placeholder="Enter task title">
+            <input type="text" id="todo-input-description" placeholder="Enter task description">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <div class="filter">
+            <input type="text" id="filter-input" placeholder="Filter tasks by title" onkeyup="filterTasks()">
+        </div>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
