@@ -13,15 +13,17 @@
         <header>
             <h1>TODO List</h1>
         </header>
-        <div class="todo-form">
+       <main>
+         <div class="todo-form">
             <input type="text" id="todo-input-title" placeholder="Enter task title">
             <input type="text" id="todo-input-description" placeholder="Enter task description">
             <button onclick="addTask()">Add</button>
-        </div>
-        <div class="filter">
+         </div>
+         <div class="filter">
             <input type="text" id="filter-input" placeholder="Filter tasks by title" onkeyup="filterTasks()">
-        </div>
-        <ul id="todo-list"></ul>
+         </div>
+         <ul id="todo-list"></ul>
+       </main>
     </div>
     <script src="script.js"></script>
 </body>
